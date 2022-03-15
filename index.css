@@ -1,19 +1,13 @@
-@media(max-width: 700px){
-    body{
-        
-    }
-
-
-
+*{
+    margin: 0; border: 0; padding: 0;
 }
-
 /*barra de menu*/
 
 header{
     width: 100%;
-    height: 300px;
+    height: 215px;
     display: flex;
-    background-color: #000000;
+    background-color: black;
 }
 nav{
     width: 100%;
@@ -75,7 +69,7 @@ img:hover{
 
 main{
     width: 100%;
-    height: 2000px;
+    height: 1000px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -86,8 +80,6 @@ section.boton1{
     justify-content: center;
     align-items: center;
     background-color: #ffeb6b;
-    border: 3px solid black;
-    border-radius: 2px;
 }
 
 #boton{
@@ -225,26 +217,12 @@ h3#boton02:hover{
 }
 /*Fin de articulo 2*/
 
-section.Art02{
-    width: 100%;
-    height: 500px;
-    display: flex;
-    background-color: #50A870;
-}
-section.Art03{
-    width: 100%;
-    height: 500px;
-    display: flex;
-    background-color: black;
-}
-
-/**/
-
-
-
 footer{
     width: 100%;
-    height: 500px;
+    height: 300px;
     display: flex;
-    background-color: darkslategray;
+    background-color: #FF914D;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
 }
